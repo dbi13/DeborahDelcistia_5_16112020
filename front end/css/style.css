@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+nav #logo img {
+  margin-right: 30rem;
+  margin-left: 2rem;
+  width: 160px;
+}
+nav #home {
+  margin-right: -5rem;
+}
+
+.fas {
+  color: #7c66df;
+}
+
+.fab {
+  color: white;
+  margin-right: 1rem;
+}
+
+.fa-shopping-basket, .fa-home {
+  font-size: 2em;
+}
+
+footer {
+  height: 60px;
+  background-color: #7c66df;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+footer #socials {
+  font-size: 1.3rem;
+  margin-right: 20rem;
+  margin-top: 1rem;
+}
+footer .footer-info {
+  margin-top: 1rem;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header .banner {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+header .banner h1, header .banner h2 {
+  text-align: center;
+}
+
+main {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+main .card {
+  height: 28rem;
+  margin-bottom: 3rem;
+  padding: 0;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+main .card:hover {
+  opacity: 0.7;
+}
+main .card img {
+  margin-top: -1px;
+  border-radius: 20px 20px 0px 0px;
+}
+main .card a:hover {
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

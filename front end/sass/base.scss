@@ -1,0 +1,66 @@
+//variables
+$color__principal:rgb(124, 102, 223);
+$color__secondary: white;
+$color__text: black;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+
+//caractéristiques communes
+body {
+    margin:0;
+    color: $color__text;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    #logo img{
+        margin-right: 30rem;
+        margin-left: 2rem;
+        width: 160px;
+    }
+    #home {
+        margin-right: -5rem;
+    }
+}
+
+.fas {
+    color: $color__principal;
+}
+
+.fab {
+    color: $color__secondary;
+    margin-right: 1rem;
+}
+
+.fa-shopping-basket, .fa-home {
+    font-size: 2em;
+}
+
+
+footer {
+    height: 60px;
+    background-color: $color__principal;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    #socials {
+        font-size: 1.3rem;
+        margin-right: 20rem;
+        margin-top: 1rem;
+    }
+    .footer-info {
+        margin-top: 1rem;
+    }
+    a {
+        color: $color__secondary;
+        text-decoration: none;
+        &:hover {
+            color: $color__secondary;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: $color__text;
+}
