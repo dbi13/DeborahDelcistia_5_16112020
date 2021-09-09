@@ -1,0 +1,22 @@
+main {
+    #monpanier {
+        .cart {
+            max-width: 500px;
+            margin: 0rem 2rem 7rem 2rem;
+            background-color: $color__background;
+            padding: 2rem;
+        }
+        #total {
+            max-height: 230px;
+            .btn-paiement {
+                background-color: $color__principal;
+                color: $color__secondary;
+                width: 200px;
+            }
+        }
+    }
+}
+
+
+
+

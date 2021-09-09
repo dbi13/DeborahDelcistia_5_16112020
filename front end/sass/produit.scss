@@ -1,0 +1,27 @@
+header {
+    #banner-int {
+        margin: 2rem 0rem 4rem 0rem;
+        padding-left: 3rem;
+        a {
+            color: $color__principal;
+        }
+    }
+}
+
+main {
+    #produit {
+        margin-bottom: 8rem;
+        .card-body {
+            .lentille {
+                .form-select {
+                    max-width: 300px;
+                }
+            }
+            .btn-addtocart {
+                background-color: $color__principal;
+                margin-top: 1rem;
+                color: white;
+            }
+        }
+    }
+}

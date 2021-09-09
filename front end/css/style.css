@@ -84,4 +84,84 @@ main .card a:hover {
   color: black;
 }
 
+header #banner-int {
+  margin: 2rem 0rem 4rem 0rem;
+  padding-left: 3rem;
+}
+header #banner-int a {
+  color: #7c66df;
+}
+
+main #produit {
+  margin-bottom: 8rem;
+}
+main #produit .card-body .lentille .form-select {
+  max-width: 300px;
+}
+main #produit .card-body .btn-addtocart {
+  background-color: #7c66df;
+  margin-top: 1rem;
+  color: white;
+}
+
+main .emptycart-msg {
+  margin-bottom: 15rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+main #monpanier .cart {
+  max-width: 500px;
+  margin: 0rem 2rem 7rem 2rem;
+  background-color: #f1f1f7;
+  padding: 2rem;
+}
+main #monpanier #total {
+  max-height: 230px;
+}
+main #monpanier #total .btn-paiement {
+  background-color: #7c66df;
+  color: white;
+  width: 200px;
+}
+
+.formpage {
+  background-color: #f1f1f7;
+  padding: 2rem;
+  margin-bottom: 5rem;
+}
+.formpage .form-row {
+  margin-bottom: 1rem;
+}
+
+.btn-buy {
+  background-color: #7c66df;
+  margin-top: 1rem;
+  color: white;
+}
+
+h2, .recap {
+  margin-bottom: 2rem;
+}
+
+h2, h1 {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 2rem;
+}
+
+header #banner-int .thanks-msg {
+  margin-bottom: 3rem;
+  margin-top: 5rem;
+}
+
+main .valid-form {
+  max-width: 500px;
+  background-color: #f1f1f7;
+  padding: 2rem;
+  margin-bottom: 8rem;
+}
+
 /*# sourceMappingURL=style.css.map */

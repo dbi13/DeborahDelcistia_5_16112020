@@ -1,0 +1,26 @@
+.formpage {
+    background-color: $color__background;
+    padding: 2rem;
+    margin-bottom: 5rem;
+    .form-row {
+        margin-bottom: 1rem;
+    }
+}
+
+.btn-buy {
+    background-color: $color__principal;
+    margin-top: 1rem;
+    color: $color__secondary;
+}
+
+h2, .recap {
+    margin-bottom: 2rem;
+}
+
+h2,h1 {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 2rem;
+}

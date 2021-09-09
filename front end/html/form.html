@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Orinoco</title>
+    
+
+    <meta name="description"
+    content="">
+
+    <!-- Meta open graph -->
+    <meta property="og:title" content="Orinoco">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:description" content= "">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="../images/favicon.png"/>
+
+    <script src="https://kit.fontawesome.com/6ddb6ac829.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" id="logo" href="/front end/index.html"><img src="../images/logo.png" alt="" width="160" class="d-inline-block align-text-top"></a>
+                <form class="d-flex">
+                  <input class="form-control me-6" type="search" placeholder="Rechercher" aria-label="Search">
+                  <button class="btn btn-light" id="search" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                  <a class="nav-link" id="home" href="/front end/index.html"><i class="fas fa-home"></i></a>
+                  <a class="nav-link" id="basket" href="emptycart.html"><i class="fas fa-shopping-basket"></i></a>
+            </div>
+          </nav>
+
+          <div class="container-fluid">
+            <div class="row">
+                <div class="" id="banner-int">
+                  <a href="/front end/index.html">Retour accueil</a>
+                  <h1>Passer commande</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row" id="myform">
+                <div class="col-md-6 formpage">
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                            <div class="row mb-3">
+                                <div class="col">
+                                <label for="prenom">Nom</label>
+                                  <input type="text" class="form-control" placeholder="Nom">
+                                  <div class="valid-feedback">Ok !</div>
+                                  <div class="invalid-feedback">Valeur incorrecte</div>
+                                </div>
+                                <div class="col">
+                                  <label for="nom">Prénom</label>
+                                  <input type="text" class="form-control" placeholder="Prénom">
+                                  <div class="valid-feedback">Ok !</div>
+                                  <div class="invalid-feedback">Valeur incorrecte</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-12 mb-12">
+                                <label for="mail">email</label>
+                                <input type="text" class="form-control" id="email" placeholder="Email" required>
+                                <div class="valid-feedback">Ok !</div>
+                                <div class="invalid-feedback">Valeur incorrecte</div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-12 mb-12">
+                                <label for="adresse">Adresse</label>
+                                <input type="text" class="form-control" id="adresse" placeholder="Adresse" required>
+                                <div class="valid-feedback">Ok !</div>
+                                <div class="invalid-feedback">Valeur incorrecte</div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-12 mb-12">
+                                <label for="complement">Complément d'adresse</label>
+                                <input type="text" class="form-control" id="complement" placeholder="Complément d'adresse" required>
+                                <div class="valid-feedback">Ok !</div>
+                                <div class="invalid-feedback">Valeur incorrecte</div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <label for="ville">Ville</label>
+                                    <input type="text" class="form-control" id="ville" placeholder="Ville" required>
+                                    <div class="valid-feedback">Ok !</div>
+                                    <div class="invalid-feedback">Valeur incorrecte</div>
+                                </div>
+                                <div class="col">
+                                    <label for="cp">Code postal</label>
+                                    <input type="number" class="form-control" id="cp" placeholder="Code postal" required>
+                                    <div class="valid-feedback">Ok !</div>
+                                    <div class="invalid-feedback">Valeur incorrecte</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-3 mb-3">
+                                <label for="pays">Pays</label>
+                                <input type="text" class="form-control" id="pays" placeholder="Pays" required>
+                                <div class="valid-feedback">Ok !</div>
+                                <div class="invalid-feedback">Valeur incorrecte</div>
+                            </div>
+                        </div>
+                        <button class="btn btn-buy" type="submit">Payer</button>
+                    </form>
+                </div>
+
+                <div class="col-md-6" id="article">
+                    <div class="formpage">
+                        <h2>Article</h2>      
+                        <div class="container">
+                            <div class="row d-flex justify-content-center recap">
+                                <div class="col">
+                                  <img src="../images/vcam_1.jpg" class="card-img-top" id="imageUrl" alt="">
+                                </div>
+                                <div class="col-md-offset-1 col">
+                                  <div class="card-body">
+                                    <h3 class="card-text" id="name">Zurss 50S</h3>
+                                    <p class="card-text" id="price">49900</p>
+                                    <p class="lentille">Lentille :</p>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                        <div class="sous-total">
+                            <p>Sous-total :</p>
+                            <p>Livraison gratuite</p>
+                            <p>TOTAL A REGLER : </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4" id="socials">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="col-md-offset-4 col-md-2 footer-info">
+              <a href="#">Contact</a>
+            </div>
+            <div class="col-md-2 footer-info">
+              <a href="#">Mentions légales</a>
+            </div>
+        </div>
+    </div>
+  </footer>
+    
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script src="./js/index.js"></script>
+</body>
+
+</html>
